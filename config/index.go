@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: disquscdn.now.sh
-  proxy: a.disquscdn.com
+  self: gravatar.now.sh
+  proxy: cn.gravatar.com 
 
 replaced_urls:
-  - old: a.disquscdn.com
-    new: disquscdn.now.sh
+  - old: cn.gravatar.com 
+    new: gravatar.now.sh
 `
 var Config *Yaml
 var Protocal string
